@@ -3,14 +3,14 @@ import ComA from './ComA'
 
 
 const FirstName = createContext();
-
+const LastName = createContext();
 
 const App =() =>{
 
     return (<>
     
         <FirstName.Provider value={'Context'}>
-
+        <LastName.Provider value={'nested component'}></LastName.Provider>
         <ComA />
         </FirstName.Provider>
 
@@ -20,4 +20,4 @@ const App =() =>{
 }
 
 export default App ;
-export {FirstName};
+export {FirstName,LastName};
