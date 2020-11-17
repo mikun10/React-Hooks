@@ -16,7 +16,11 @@ const ComC = () =>{
                             </LastName.Consumer>
                         )
                    
+<<<<<<< HEAD
+                    } 
+=======
                     }
+>>>>>>> 13479a066845424961f7558ba584b1da312b214d
                 }
 
             </FirstName.Consumer>
